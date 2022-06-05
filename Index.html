@@ -1,0 +1,77 @@
+
+<html>
+  <title>አስተያየት መስጫ</title>
+  <body class="body">
+    <section class="jo">
+      
+  <div>
+    
+ 
+    <p class="p">አስተያየት መስጫ</p>
+    <input  class="jo2" type="text" placeholder=" ሙሉ ስሞን ያስገቡ" value="" />
+    <input class="jo3" type="email" placeholder="ኢሜሎን ያስገቡ" value="" />
+    <input class="jo1 "type="text" placeholder="አስተያየትዎን ያስገቡ" value="" />
+    <input class="jo4" type="date" placeholder="ቀን ይምረጡ"  value="" />
+<input type="hidden" value="ለአስተያየቶ እናመሰግናለን" id="demo" />
+  
+     <button class="jo5" onclick="getValue()"> አስገባ</button>
+   <script type="text/javascript">
+       function getValue() {
+           alert(document.getElementById('demo').value);
+       }
+   </script>
+ </div>
+    </section>
+    <style type="text/css">
+    .p{
+      text-align: center;
+    }
+      .jo{
+        border-radius: 10px;
+        margin: 30px;
+        padding: 50px;
+        background-color: #74BBB6 ;
+      }
+      div input {
+        border: none;
+        width: 100%;
+        height: 30px;
+        padding: 10px;
+        justify-content: space-betwen;
+      }
+      .jo1{
+        width: 200px;
+        height: 100px;
+        margin: 3%;
+        border-radius: 5px;
+      }
+      .jo2{
+        margin: 3%;
+        border-radius: 5px;
+        border: none;
+      }
+      .jo3{
+        margin: 3%;
+        border-radius: 5px;
+        border: none;
+      }
+      .jo4{
+        margin: 3%;
+        border-radius: 5px;
+        border: none;
+      }
+      .jo5{
+        margin: 3%;
+        height: 30px;
+        width: 100px;
+        border-radius: 8px;
+        border: none;
+        background-color: #A7C468 ;
+        
+      }
+      .body{
+        background-color: #A6ECFF;
+      }
+    </style>
+  </body>
+</html>
